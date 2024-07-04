@@ -18,6 +18,10 @@ main {
     flex: 1;
     padding: 2rem;
 }
+.profileInfo {
+    display: flex;
+    gap: 1rem;
+}
 
 h1, h2 {
     margin: 0.5rem 0;
@@ -45,6 +49,19 @@ footer {
     width: 100%;
 }
 
+   .profilePic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        
+    }
+
+    .externalLinks {
+        display: flex;
+        gap: 1rem;
+    
+    }
+
 @media (max-width: 600px) {
     main {
         padding: 1rem;
@@ -54,3 +71,5 @@ footer {
         padding-left: 0;
     }
 }
+
+

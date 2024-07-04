@@ -7,10 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header data-testid="header">
-        <h1 data-testid="title">My Tech Goals for the Next 2 Years</h1>
+    <header>
+        <h1>OKPE Tech Goals for the Next 2 Years</h1>
     </header>
     <main data-testid="main-content">
+        <section class="profileInfo">
+             <img data-testid="slackProfilePicture" src="./ninjacode.jpg" class="profilePic">
+            <div>
+            <p data-testid="slackDisplayName">Slack ID: b9etchie</p>
+            <p data-testid="slackEmail">Email: b9etchie@gmail.com</p>
+            </div>
+        </section>
+        <!-- current time in utc -->
+        <p>UTC Date Time Info </p>
+        <p data-testid="currentDay">Date: <span id="currentDay"></span></p>
+        <p data-testid="currentTimeUTC">Time: <span id="currentTime">2024-01-01T00:00:00Z</span></p>
         <section data-testid="short-term-goals">
             <h2>Short-Term Goals (1-6 months)</h2>
             <ul>
@@ -35,6 +46,17 @@
                 <li data-testid="goal-9">Speak at a tech conference</li>
             </ul>
         </section>
+        <section>
+            <!-- write a short text saying you join a program to achieve this goals and add link to the program -->
+            <p data-testid="program-description">I joined the HNG 11 Internship program to help me achieve these goals.
+            <div class="externalLinks">
+            <a href="http://hng.tech/learn" data-testid="hngLink">Learn more</a>
+            <a href="http://keyword.dog/"  data-testid="keywordLink">Keyword.dog</a>
+            <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">Scrapeanyweb.site</a>
+            </div>
+            </p>
+        </section>
+
     </main>
     <footer data-testid="footer">
         <p>&copy; 2024 My Tech Journey</p>
